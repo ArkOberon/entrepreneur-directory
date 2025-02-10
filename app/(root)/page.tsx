@@ -1,7 +1,10 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-2xl">HOME</h1>
+      <section className="pink_container">
+        <h1 className="heading">Pitch your startup, connect with entrepreneurs</h1>
+      </section>
+      
     </>
   );
 }
