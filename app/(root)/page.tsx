@@ -9,9 +9,10 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ q
     {
       _createdAt: new Date().toDateString(),
       views: 100,
+      author: { _id: "1", name: "Pedro M Cruz" },
       _id: "1",
       description: "A startup that does something",
-      image: "https://unsplash.com/es/fotos/papel-pintado-robot-blanco-JjGXjESMxOY",
+      image: "https://images.unsplash.com/photo-1535378620166-273708d44e4c?q=80&w=2157&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       category: "Tech",
       title: "We robots"
     }
