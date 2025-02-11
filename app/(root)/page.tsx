@@ -4,10 +4,10 @@ import { StartupCardType } from "@/types";
 
 export default async function Home({ searchParams }: { searchParams: Promise<{ query?: string }> }) {
   const query = (await searchParams).query;
-  
+
   const posts = [
     {
-      _createdAt: "2022-01-01T00:00:00Z",
+      _createdAt: new Date().toDateString(),
       views: 100,
       _id: "1",
       description: "A startup that does something",
