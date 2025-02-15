@@ -49,7 +49,7 @@ const workSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "YC Directory",
+  title: "Entrepreneur Directory",
   description: "Pitch, vote and Grow",
 };
 

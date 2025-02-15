@@ -6,6 +6,7 @@ const Navbar = async () => {
   const session = await auth();
   const options: object = { redirectTo:'/'};
   const provider: string = 'github';
+  
   return (
     <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
       <nav className="flex justify-between items-center">
