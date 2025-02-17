@@ -40,7 +40,7 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
         </div>
         <Link href={`/user/${author?._id}`}>
           <Image
-            src={author?.image|| "/logo.svg"}
+            src={author?.image|| "/logo2-etr.svg"}
             alt={author?.name || "Author name"}
             width={48}
             height={48}
