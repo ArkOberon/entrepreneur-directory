@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <div>   
     <img src="https://github.com/ArkOberon/entrepreneur-directory/blob/e57ef018bcdbf6d51bfe0fffa9a119ef97c6a7a9/project-banner.png?raw=true" alt="banner" />
   <div />
