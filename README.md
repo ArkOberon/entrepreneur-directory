@@ -51,11 +51,6 @@ npm run dev
 
 ````
 
-````bash
-# IMPORTANT: In local development mode, NextJS takes care of the build automatically.
-# automatically, this is why you SHOULD NOT EXECUTE the command npm run build
-````
-
 ## **2.⚙️ Environment variables** <div id='env' />
 
 For a correct functioning of the APP the environment variables must be used. Create a **.env.local** file in the repository root folder (**IMPORTANT:** It must be at the same level as the package.json or README.md file. Do not insert in /src or any other existing folder).
@@ -80,7 +75,7 @@ SANITY_WRITE_TOKEN=
 ````
 Replace the placeholder values with your actual Sanity credentials. You can obtain these credentials by signing up & creating a new project on the [Sanity website](https://www.sanity.io/).
 
-## <a name="features">🔋 Features</a>
+## **3.🔋 Features** <div id='features' />
 
 👉 **Live Content API**: Displays the latest startup ideas dynamically on the homepage using Sanity's Content API.
 
