@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea"
 import MDEditor from "@uiw/react-md-editor"
 import { Button } from "./ui/button"
 import { Send } from "lucide-react"
-
+import { createPitch } from "@/lib/actions"
 import { formSchema } from "@/lib/validation"
 import { useToast } from "@/hooks/use-toast"
 import { useRouter } from "next/navigation"
@@ -31,19 +31,19 @@ const StartupForm = () => {
 
       await formSchema.parseAsync(formValues)
       console.log(formValues)
-      //const result = await createIdea(prevState, formData, pitch)
-      //console.log(result)
+      const result = await createPitch(prevState, formData, pitch)
+      console.log(result)
 
-      /* if(result.status === 'SUCCESS') {
+      if(result.status === 'SUCCESS') {
         toast({
           title: "Success",
           description: "Your startup pitch has been created successfully"
         })
 
-        router.push(`/startup/${result.id}`)
+        router.push(`/startup/${result._id}`)
       }   
       
-      return result; */      
+      return result;      
     } catch (error) {
       if(error instanceof z.ZodError){
         const fieldErrors = error.flatten().fieldErrors;
@@ -58,7 +58,6 @@ const StartupForm = () => {
 
         return {...prevState, error: "Validation Failed", status: "ERROR"}
       }
-
       
       toast({
         title: 'Error',
