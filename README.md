@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/badge/-Sanity-black?style=for-the-badge&logoColor=white&logo=sanity&color=F03E2F" alt="sanity" />
     <img src="https://img.shields.io/badge/-shadcn_ui-black?style=for-the-badge&logoColor=white&logo=shadcnui&color=000000" alt="shadcnui" />
     <img src="https://img.shields.io/badge/-sentry-black?style=for-the-badge&logoColor=white&logo=sentry&color=362D59" alt="shadcnui" />
+    <img src="https://img.shields.io/badge/-zod-black?style=for-the-badge&logoColor=white&logo=zod&color=3E67B1" alt="zod" />
   </div>
 
 <h3 align="center">Entrepreneur Directory Platform</h3>
