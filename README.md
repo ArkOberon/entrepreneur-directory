@@ -15,10 +15,9 @@
   </div>
 
 <h3 align="center">Entrepreneur Directory Platform</h3>
-
-   <div align="center">
-     Platform to advertise startups and small businesses. Here you can easily promote your company so that others can see your different projects and the added value you bring to the international community.
-    </div>
+  <div align="center">
+    Platform to advertise startups and small businesses. Here you can easily promote your company so that others can see your different projects and the added value you bring to the international community.
+  </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
